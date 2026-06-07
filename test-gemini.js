@@ -8,7 +8,7 @@ async function main() {
   try {
     const result = await generateText({
       model: google("gemini-2.5-flash"),
-      prompt: "Hi.",
+      prompt: "Hi",
     });
 
     console.log("=== RESPONSE ===");
