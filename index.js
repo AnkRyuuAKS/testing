@@ -11,6 +11,12 @@ app.get("/", (req, res) => {
     res.send("Server is running!");
 });
 
+app.post("/api/data", (req, res) => {
+    const data = req.body;
+    console.log("Received data:", data);
+    res.json({ message: "Data received successfully!", receivedData: data });
+});
+
 // Start server
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
