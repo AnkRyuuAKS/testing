@@ -13,6 +13,7 @@
   "dependencies": {
     "@ai-sdk/google": "^3.0.80",
     "ai": "^6.0.197",
-    "dotenv": "^17.4.2"
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
   }
 }
