@@ -1,5 +1,4 @@
 console.log("entered in the file")
-const api = 'jina_0a632d5ab3454e619a77dc40d0802cb7XA8XV6tnKvgZiMe4O2nHxCVcqulH';
 async function testJinaEmbedding() {
   console.log("inside the function");
   const response = await fetch(
